@@ -1,0 +1,84 @@
+/* Temas de acessibilidade: modo escuro e alto contraste. */
+
+body.tema-escuro {
+  background:#121212;
+  color:#f5f5f5;
+}
+body.tema-escuro .cabecalho,
+body.tema-escuro .rodape,
+body.tema-escuro .secao,
+body.tema-escuro .card,
+body.tema-escuro .projeto,
+body.tema-escuro .formulario-container {
+  background:#1e1e1e;
+  color:#f5f5f5;
+}
+body.tema-escuro a { color:#8fd3ff; }
+body.tema-escuro .botao {
+  background:#8fd3ff;
+  color:#101010;
+}
+body.tema-escuro input,
+body.tema-escuro select,
+body.tema-escuro textarea {
+  background:#242424;
+  color:#fff;
+  border-color:#bdbdbd;
+}
+body.tema-escuro input::placeholder,
+body.tema-escuro textarea::placeholder { color:#cfcfcf; }
+body.tema-escuro .menu-toggle,
+body.tema-escuro .controle-acessibilidade {
+  background:#242424;
+  color:#fff;
+  border-color:#fff;
+}
+body.tema-escuro :focus-visible {
+  outline:3px solid #ffdf5d;
+  outline-offset:3px;
+}
+
+body.alto-contraste {
+  background:#000;
+  color:#fff;
+}
+body.alto-contraste .cabecalho,
+body.alto-contraste .rodape,
+body.alto-contraste .hero,
+body.alto-contraste .secao,
+body.alto-contraste .card,
+body.alto-contraste .projeto,
+body.alto-contraste .chamada,
+body.alto-contraste .pagina-titulo,
+body.alto-contraste .formulario-container {
+  background:#000;
+  color:#fff;
+  border-color:#fff;
+}
+body.alto-contraste a {
+  color:#ff0;
+  text-decoration:underline;
+}
+body.alto-contraste .botao,
+body.alto-contraste .controle-acessibilidade,
+body.alto-contraste .menu-toggle {
+  background:#ff0;
+  color:#000;
+  border:2px solid #fff;
+}
+body.alto-contraste input,
+body.alto-contraste select,
+body.alto-contraste textarea {
+  background:#000;
+  color:#fff;
+  border:2px solid #fff;
+}
+body.alto-contraste input::placeholder,
+body.alto-contraste textarea::placeholder { color:#fff; }
+body.alto-contraste .destaque,
+body.alto-contraste .mensagem-erro { color:#ff0; }
+body.alto-contraste :focus-visible {
+  outline:4px solid #0ff;
+  outline-offset:3px;
+}
+.controle-acessibilidade[aria-pressed="true"] { font-weight:700; }
