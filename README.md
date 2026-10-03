@@ -8,8 +8,10 @@ Projeto front-end da ONG Solidária reorganizado como Single Page Application co
 ONG-Solidaria-SPA-Modular/
 ├── index.html
 ├── css/
-│   └── style.css
+│   ├── style.css
+|   └── tema-acessibilidade.css
 ├── js/
+│   ├── acessibilidade.js
 │   ├── app.js
 │   ├── formulario.js
 │   ├── localStorage.js
@@ -19,11 +21,13 @@ ONG-Solidaria-SPA-Modular/
 
 ## Responsabilidades
 
+- `acessibilidade.js`: alternância dos temas e persistência da preferência com localStorage.
 - `app.js`: roteamento com History API, event delegation, renderização e metadados.
 - `formulario.js`: máscaras, validações, submit, histórico visual e integração com persistência.
 - `localStorage.js`: `getItem`, `setItem`, `JSON.parse`, `JSON.stringify` e CRUD local.
 - `menu-mobile.js`: comportamento do menu e estado ARIA.
 - `style.css`: estilos e responsividade existentes do projeto.
+- `tema-acessibilidade.css`: somente regras de modo escuro e alto contraste.
 
 ## Execução
 
