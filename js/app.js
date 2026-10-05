@@ -1,7 +1,17 @@
 "use strict";
 
-import { inicializarFormulario, renderizarHistorico } from "./formulario.js";
-import { inicializarMenuMobile } from "./menu-mobile.js";
+import "../css/style.css";
+import "../css/tema-acessibilidade.css";
+import "./acessibilidade.js";
+
+import {
+    inicializarFormulario,
+    renderizarHistorico
+} from "./formulario.js";
+
+import {
+    inicializarMenuMobile
+} from "./menu-mobile.js";
 
 const app = document.querySelector("#app");
 
